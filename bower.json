@@ -1,0 +1,31 @@
+{
+  "name": "GitHub-user-browser",
+  "version": "0.0.1",
+  "homepage": "https://github.com/diegocard/GitHub-user-browser",
+  "authors": [
+    "Diego Cardozo <diegocard@gmail.com>"
+  ],
+  "description": "GitHub user browser",
+  "main": "index.html",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "GitHub",
+    "SemantiUI",
+    "Air.js"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic-ui": "~1.0.0"
+  }
+}

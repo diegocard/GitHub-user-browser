@@ -1,0 +1,28 @@
+{
+  "name": "GitHub-user-browser",
+  "version": "0.0.1",
+  "description": "GitHub user browser",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diegocard/GitHub-user-browser.git"
+  },
+  "keywords": [
+    "GitHub",
+    "SemanticUI",
+    "Air.js"
+  ],
+  "author": "Diego Cardozo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegocard/GitHub-user-browser/issues"
+  },
+  "homepage": "https://github.com/diegocard/GitHub-user-browser",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-connect": "^2.2.0"
+  }
+}

@@ -1,42 +1,139 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Github user browser by diegocard</title>
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="chrome=1">
-        <title>Github user browser by diegocard</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./bower_components/semantic-ui/dist/semantic.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 
-        <!-- Semantic UI Styles -->
-        <link rel="stylesheet" href="https://cdn.rawgit.com/Semantic-Org/Semantic-UI/master/dist/semantic.min.css">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        <!--[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-    </head>
+</head>
+<body id="home">
+    <div class="ui inverted masthead segment">
+        <div class="ui page grid">
+            <div class="column">
+                <div class="ui inverted blue menu">
+                    <div class="header item">GitHub User Browser</div>
+                    <div class="right menu">
+                        <div class="ui mobile dropdown link item">
+                            Menu
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <a class="item">Classes</a>
+                                <a class="item">Cocktail Hours</a>
+                                <a class="item">Community</a>
+                            </div>
+                        </div>
+                        <div class="ui dropdown link item">
+                            Courses
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <a class="item">Petting</a>
+                                <a class="item">Feeding</a>
+                                <a class="item">Mind Reading</a>
+                            </div>
+                        </div>
+                        <a class="item">Library</a>
+                        <a class="item">Community</a>
+                    </div>
+                </div>
+                <img src="img/github-octocat.png" class="ui medium image">
+                <div class="ui hidden transition information">
+                    <h1 class="ui inverted header">
+                        GitHub user browser by <a href="https://github.com/diegocard/">@diegocard</a>
+                    </h1>
+                    <p>Easily query the GitHub user API</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui vertical feature segment">
+        <div class="ui centered page grid">
+            <div class="fourteen wide column">
+                <div class="ui three column center aligned stackable divided grid">
+                    <div class="column">
+                        <div class="ui icon header">
+                            <i class="student icon"></i>
+                            Courses
+                        </div>
+                        <p>Take your kitty to a cat-ducation course and learn how to treat her well.</p>
+                        <p>
+                            <a class="ui button" href="#">
+                                Learn
+                            </a>
+                        </p>
+                    </div>
+                    <div class="column">
+                        <div class="ui icon header">
+                            <i class="code icon"></i>
+                            Library
+                        </div>
+                        <p>Dig through our cat library to found out amazing things you can do with your kitty.</p>
+                        <p>
+                            <a class="ui blue right labeled icon button" href="#">
+                                Research
+                                <i class="right chevron icon"></i>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="column">
+                        <div class="ui icon header">
+                            <i class="user icon"></i>
+                            Community
+                        </div>
+                        <p>Get feedback on your cat from a community of loving pet owners on our online bulletin board system.</p>
+                        <p>
+                            <a class="ui button" href="#">
+                                Share
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <body>
-        <h1>GitHub user browser</h1>
+    <div class="ui inverted footer vertical segment">
+        <div class="ui stackable center aligned page grid">
+            <div class="sixteen wide column">
+                <h5 class="ui inverted header">By Diego Cardozo</h5>
+                <a href="https://twitter.com/diecard" class="ui twitter button">
+                    <i class="twitter icon"></i>
+                    Twitter
+                </a>
+                <a href="https://github.com/diegocard/" class="ui github button">
+                    <i class="github icon"></i>
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </div>
 
-        <!-- jQuery -->
-        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- Scripts -->
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./bower_components/semantic-ui/dist/semantic.min.js"></script>
+    <script src="https://cdn.rawgit.com/diegocard/air.js/master/dist/air.min.js"></script>
+    <script src="./js/main.js"></script>
 
-        <!-- Semantic UI library -->
-        <script src="https://cdn.rawgit.com/Semantic-Org/Semantic-UI/master/dist/semantic.min.js"></script>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-52658104-2");
+            pageTracker._trackPageview();
+        } catch (err) {}
+    </script>
+</body>
 
-        <!-- Air.js -->
-        <script src="https://cdn.rawgit.com/diegocard/air.js/master/dist/air.min.js"></script>
-
-        <!-- Google Analytics -->
-        <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-        </script>
-        <script type="text/javascript">
-            try {
-                var pageTracker = _gat._getTracker("UA-52658104-2");
-                pageTracker._trackPageview();
-            } catch (err) {}
-        </script>
-    </body>
 </html>

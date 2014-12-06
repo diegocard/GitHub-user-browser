@@ -23,26 +23,14 @@
                 <div class="ui inverted blue menu">
                     <div class="header item">GitHub User Browser</div>
                     <div class="right menu">
-                        <div class="ui mobile dropdown link item">
-                            Menu
-                            <i class="dropdown icon"></i>
-                            <div class="menu">
-                                <a class="item">Classes</a>
-                                <a class="item">Cocktail Hours</a>
-                                <a class="item">Community</a>
-                            </div>
-                        </div>
                         <div class="ui dropdown link item">
-                            Courses
+                            Built with
                             <i class="dropdown icon"></i>
                             <div class="menu">
-                                <a class="item">Petting</a>
-                                <a class="item">Feeding</a>
-                                <a class="item">Mind Reading</a>
+                                <a class="item" href="https://github.com/diegocard/air.js" target="_blank">Air.js</a>
+                                <a class="item" href="http://semantic-ui.com/" target="_blank">Semantic UI</a>
                             </div>
                         </div>
-                        <a class="item">Library</a>
-                        <a class="item">Community</a>
                     </div>
                 </div>
                 <img src="img/github-octocat.png" class="ui medium image">
@@ -58,44 +46,143 @@
     <div class="ui vertical feature segment">
         <div class="ui centered page grid">
             <div class="fourteen wide column">
-                <div class="ui three column center aligned stackable divided grid">
-                    <div class="column">
-                        <div class="ui icon header">
-                            <i class="student icon"></i>
-                            Courses
-                        </div>
-                        <p>Take your kitty to a cat-ducation course and learn how to treat her well.</p>
-                        <p>
-                            <a class="ui button" href="#">
-                                Learn
-                            </a>
-                        </p>
+                <h2 class="ui header">
+                    <a href="">Filters</a>
+                </h2>
+            </div>
+            <div class="fourteen wide column">
+                <div class="ui error form segment">
+                    <div class="ui error message">
+                        <div class="header">Error Message</div>
+                        <p>Error message long description</p>
                     </div>
-                    <div class="column">
-                        <div class="ui icon header">
-                            <i class="code icon"></i>
-                            Library
+                </div>
+                <div class="ui form segment">
+                    <div class="two fields">
+                        <div class="field">
+                            <label>Selection Dropdown</label>
+                            <div class="ui selection dropdown">
+                                <div class="default text">Select</div>
+                                <i class="dropdown icon"></i>
+                                <input name="hidden-field" type="hidden">
+                                <div class="menu">
+                                    <div class="item" data-value="1">Choice 1</div>
+                                    <div class="item" data-value="2">Choice 2</div>
+                                </div>
+                            </div>
                         </div>
-                        <p>Dig through our cat library to found out amazing things you can do with your kitty.</p>
-                        <p>
-                            <a class="ui blue right labeled icon button" href="#">
-                                Research
-                                <i class="right chevron icon"></i>
-                            </a>
-                        </p>
                     </div>
-                    <div class="column">
-                        <div class="ui icon header">
-                            <i class="user icon"></i>
-                            Community
+                    <div class="field">
+                        <label>Text Area</label>
+                        <textarea></textarea>
+                    </div>
+                    <div class="three required fields">
+                        <div class="field">
+                            <label>Required Input</label>
+                            <input placeholder="Text Input" type="text">
                         </div>
-                        <p>Get feedback on your cat from a community of loving pet owners on our online bulletin board system.</p>
-                        <p>
-                            <a class="ui button" href="#">
-                                Share
-                            </a>
-                        </p>
+                        <div class="disabled field">
+                            <label>Disabled Input</label>
+                            <input placeholder="Text Input" disabled="disabled" type="text">
+                        </div>
                     </div>
+                    <div class="grouped fields">
+                        <label>Radio Selection</label>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="fruit" checked="checked">
+                                <label>Radio Option</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="fruit">
+                                <label>Radio Option</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="fruit">
+                                <label>Radio Option</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="fruit">
+                                <label>Radio Option</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>Password</label>
+                        <div class="ui left icon input">
+                            <i class="lock icon"></i>
+                            <input type="password">
+                        </div>
+                    </div>
+                    <div class="inline field">
+                        <div class="ui checkbox">
+                            <input type="checkbox">
+                            <label>Checkbox</label>
+                        </div>
+                    </div>
+                    <div class="grouped inline fields">
+                        <label>Inline Radio Selection</label>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="fruit" checked="checked">
+                                <label>Radio Option</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="fruit">
+                                <label>Radio Option</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="fruit">
+                                <label>Radio Option</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="fruit">
+                                <label>Radio Option</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inline fields">
+                        <div class="field">
+                            <label>Multiple Inline Fields</label>
+                            <input placeholder="(xxx)" type="text">
+                        </div>
+                        <div class="field">
+                            <input placeholder="xxx" type="text">
+                        </div>
+                        <div class="field">
+                            <input placeholder="xxxx" type="text">
+                        </div>
+                    </div>
+                    <div class="inline field">
+                        <label>Inline Field</label>
+                        <input placeholder="Text Input" type="text">
+                    </div>
+                    <h4 class="ui header">Sub-header</h4>
+                    <div class="field">
+                        <div class="ui toggle checkbox">
+                            <input name="privacy" type="radio">
+                            <label>Hireable</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui slider checkbox">
+                            <input name="top-posts" type="checkbox">
+                            <label>Option</label>
+                        </div>
+                    </div>
+                    <div class="ui submit button">Submit</div>
                 </div>
             </div>
         </div>
